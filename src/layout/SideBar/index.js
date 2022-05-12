@@ -1,5 +1,5 @@
 import React from 'react';
-import SideBarOption from './SideBarOption';
+import SideBarOption from '../../components/SideBarOption';
 import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 import InboxIcon from '@mui/icons-material/Inbox';
@@ -14,9 +14,9 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import PersonIcon from '@mui/icons-material/Person';
 import DuoIcon from '@mui/icons-material/Duo';
 import PhoneIcon from '@mui/icons-material/Phone';
+import { IconButton } from '@mui/material';
 
 import './SideBar.css';
-import { IconButton } from '@mui/material';
 
 
 const SideBar = () => {
