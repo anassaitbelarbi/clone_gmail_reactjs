@@ -1,0 +1,18 @@
+.layout__base {
+    /* background-color: red; */
+    /* height: calc(100vh-80px); */
+}
+
+.layout__body {
+    display: flex;
+    height: calc(100vh - 81px);
+}
+
+.layout__sidebar {
+    flex: 0.3;
+    max-width: 300px;
+}
+
+.layout__main {
+    flex: 1;
+}
